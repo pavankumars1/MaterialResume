@@ -1,8 +1,10 @@
 <mat-toolbar color="warn" style="justify-content:space-between">
   <div>Pavan Kumar Surisetti</div>
   <div style="justify-content:space-between">
-    <span style="padding:10px">Contact</span>
-    <span style="padding:10px">LinkedIn</span>
+    <span mat-button style="padding:10px" [matMenuTriggerFor]="contactType"
+      >Contact</span
+    >
+    <span style="padding:10px" [matMenuTriggerFor]="linkedin">LinkedIn</span>
   </div>
 </mat-toolbar>
 
@@ -12,7 +14,11 @@
     <mat-card-title>Pavan</mat-card-title>
     <mat-card-subtitle>Angular Developer</mat-card-subtitle>
   </mat-card-header>
-  <img mat-card-image src="" alt="Photo of Pavan" />
+  <img
+    mat-card-image
+    src="https://raw.githubusercontent.com/pavankumars1/MaterialResume/main/Photo_Pavan.jpg"
+    alt="Photo of Pavan"
+  />
   <mat-card-content>
     <p>
       Software Engineer having 5.1 years of experience in HTML, CSS, JavaScript
@@ -23,3 +29,21 @@
     </p>
   </mat-card-content>
 </mat-card>
+
+<mat-menu #contactType="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="contactMobile">Phone</button>
+  <button mat-menu-item [matMenuTriggerFor]="contactEmail">Email</button>
+</mat-menu>
+<mat-menu #contactMobile="matMenu">
+  <button mat-menu-item>+91-9618740900</button>
+</mat-menu>
+<mat-menu #contactEmail="matMenu">
+  <button mat-menu-item>pavanumar.surisetti@gmail.com</button>
+</mat-menu>
+<mat-menu #linkedin="matMenu">
+  <a
+    mat-menu-item
+    href="https://www.linkedin.com/in/pavan-kumar-surisetti-12b6319b"
+    >LinkedIn</a
+  >
+</mat-menu>
