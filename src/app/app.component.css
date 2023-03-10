@@ -1,3 +1,43 @@
 p {
   font-family: Lato;
 }
+
+.avatar {
+  background-image: url('https://raw.githubusercontent.com/pavankumars1/MaterialResume/main/Photo_Pavan.jpg');
+  background-size: cover;
+}
+
+.avatar_ng {
+  background-image: url('https://angular.io/assets/images/logos/angular/angular.svg');
+  background-size: cover;
+}
+
+.avatar_js {
+  background-image: url('https://static.studytonight.com/css/resource.v3/icons/subject/logo-javascript.svg');
+  background-size: cover;
+}
+
+.avatar_html {
+  background-image: url('https://img.freepik.com/free-icon/html_318-788932.jpg?t=st=1676896965~exp=1676897565~hmac=264843309bfb3f2cbf6fb54b59f7aa7feb8f9806051ef4e643166ba582cbf1f2');
+  background-size: cover;
+}
+
+.avatar_css {
+  background-image: url('https://img.freepik.com/free-icon/css_318-698167.jpg?t=st=1676897205~exp=1676897805~hmac=5719047a941a8c1838069646dec812bd4f9ea16d1f77ce689fb86144e27de6ae');
+  background-size: cover;
+}
+
+.avatar_rxjs {
+  background-image: url('https://rxjs.dev/generated/images/marketing/home/Rx_Logo-512-512.png');
+  background-size: cover;
+}
+
+.avatar_material {
+  background-image: url('https://material.angular.io/assets/img/angular-material-logo.svg');
+  background-size: cover;
+}
+
+.skillset {
+  display: flex;
+  justify-content: space-evenly;
+}

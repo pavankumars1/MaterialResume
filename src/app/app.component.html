@@ -8,17 +8,18 @@
   </div>
 </mat-toolbar>
 
-<mat-card style="max-width:300px">
+<mat-card style="max-width:300px;margin:10px auto">
   <mat-card-header>
     <div mat-card-avatar class="avatar"></div>
-    <mat-card-title>Pavan</mat-card-title>
+    <mat-card-title>Pavan Kumar Surisetti</mat-card-title>
     <mat-card-subtitle>Angular Developer</mat-card-subtitle>
+    <!-- <img
+      mat-card-image
+      src="https://raw.githubusercontent.com/pavankumars1/MaterialResume/main/Photo_Pavan.jpg"
+      alt="Photo of Pavan"
+    /> -->
   </mat-card-header>
-  <img
-    mat-card-image
-    src="https://raw.githubusercontent.com/pavankumars1/MaterialResume/main/Photo_Pavan.jpg"
-    alt="Photo of Pavan"
-  />
+
   <mat-card-content>
     <p>
       Software Engineer having 5.1 years of experience in HTML, CSS, JavaScript
@@ -41,9 +42,219 @@
   <button mat-menu-item>pavanumar.surisetti@gmail.com</button>
 </mat-menu>
 <mat-menu #linkedin="matMenu">
-  <a
-    mat-menu-item
-    href="https://www.linkedin.com/in/pavan-kumar-surisetti-12b6319b"
-    >LinkedIn</a
-  >
+  <a mat-menu-item href="../Photo_Pavan.jpg">LinkedIn</a>
 </mat-menu>
+
+<mat-accordion>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title> Technical Skill Set </mat-panel-title>
+    </mat-expansion-panel-header>
+    <div class="skillset">
+      <mat-card>
+        <mat-card-header>
+          <div mat-card-avatar class="avatar_ng"></div>
+          <mat-card-title>Angular</mat-card-title>
+          <mat-card-subtitle>Exp: 2+ years</mat-card-subtitle>
+        </mat-card-header>
+      </mat-card>
+      <mat-card>
+        <mat-card-header>
+          <div mat-card-avatar class="avatar_js"></div>
+          <mat-card-title>JavaScript</mat-card-title>
+          <mat-card-subtitle>Exp: 5 years</mat-card-subtitle>
+        </mat-card-header>
+      </mat-card>
+      <mat-card>
+        <mat-card-header>
+          <div mat-card-avatar class="avatar_html"></div>
+          <mat-card-title>HTML</mat-card-title>
+          <mat-card-subtitle>Exp: 5 years</mat-card-subtitle>
+        </mat-card-header>
+      </mat-card>
+      <mat-card>
+        <mat-card-header>
+          <div mat-card-avatar class="avatar_css"></div>
+          <mat-card-title>CSS</mat-card-title>
+          <mat-card-subtitle>Exp: 5 years</mat-card-subtitle>
+        </mat-card-header>
+      </mat-card>
+      <mat-card>
+        <mat-card-header>
+          <div mat-card-avatar class="avatar_rxjs"></div>
+          <mat-card-title>RxJS</mat-card-title>
+          <mat-card-subtitle>Exp: 2 years</mat-card-subtitle>
+        </mat-card-header>
+      </mat-card>
+      <mat-card>
+        <mat-card-header>
+          <div mat-card-avatar class="avatar_material"></div>
+          <mat-card-title>Angular Material</mat-card-title>
+          <mat-card-subtitle>Exp: 2 years</mat-card-subtitle>
+        </mat-card-header>
+      </mat-card>
+    </div>
+  </mat-expansion-panel>
+
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title> Professional Experience </mat-panel-title>
+    </mat-expansion-panel-header>
+
+    <i class="fa fa-briefcase"></i> ValueLabs - Systems Analyst - SD from Dec
+    2022 to till date
+    <hr />
+    <i class="fa fa-briefcase"></i> Zensar Technologies – Sr. Software Engineer
+    from Sep 2022 to Dec 2022
+    <hr />
+    <i class="fa fa-briefcase"></i> Rocket Software – Associate Technical
+    Support Engineer from Aug 2017 to Aug 2022,<br />&emsp;previously ASG
+    Technologies which was acquired by Rocket Software,<br />&emsp;previously
+    Cloudpact Technologies (Software Engineer) acquired by ASG Technologies.
+  </mat-expansion-panel>
+
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title> Projects Experience </mat-panel-title>
+    </mat-expansion-panel-header>
+    <mat-accordion>
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title
+            >Reliance Mutual Fund - [2017 to 2019]</mat-panel-title
+          >
+          <mat-panel-description
+            >An application to track and invest in funds and perform
+            transactions like SIP, Switch, and purchase</mat-panel-description
+          >
+        </mat-expansion-panel-header>
+        <div>
+          Key Activities Performed:
+          <ul>
+            <li>
+              Develop, test, and deploy hybrid mobile and web applications
+            </li>
+            <li>Manage and prioritize enhancements and roadmap updates</li>
+            <li>Create clean, maintainable, and tested code</li>
+            <li>Performance and code quality improvement for applications</li>
+            <li>
+              Work with IT System personnel to ensure efficient code migrations
+              between development environments
+            </li>
+          </ul>
+
+          Technology/Skills/Tools used:
+          <ul>
+            <li><u>Tools:</u> Visual Studio, Postman, GIT, Custom Framework</li>
+            <li><u>Technologies:</u> JavaScript, HTML, CSS, Mowbly, Angular</li>
+            <li><u>Skills:</u> Application development and maintenance</li>
+          </ul>
+        </div>
+      </mat-expansion-panel>
+
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title
+            >Edelweiss Tokio Life Insurance – [2018 to 2020]</mat-panel-title
+          >
+          <mat-panel-description
+            >An insurance application with its wide range of insurance
+            products</mat-panel-description
+          >
+        </mat-expansion-panel-header>
+        <div>
+          Key Activities Performed:
+          <ul>
+            <li>
+              Develop, test, and deploy hybrid mobile and web applications
+            </li>
+            <li>Involve in preparing Proof of Concept’s (POCs)</li>
+            <li>Manage and prioritize enhancements and roadmap updates</li>
+            <li>Create clean, maintainable, and tested code</li>
+            <li>Performance and code quality improvement for applications</li>
+          </ul>
+
+          Technology/Skills/Tools used:
+          <ul>
+            <li><u>Tools:</u> Visual Studio, Postman, GIT, Custom Framework</li>
+            <li>
+              <u>Technologies:</u> JavaScript, HTML, CSS, Mowbly, Angular, RxJS
+            </li>
+            <li><u>Skills:</u> Application development and maintenance</li>
+          </ul>
+        </div>
+      </mat-expansion-panel>
+
+      <mat-expansion-panel>
+        <mat-expansion-panel-header>
+          <mat-panel-title>PNB – [2020 to 2022]</mat-panel-title>
+          <mat-panel-description
+            >A web application for loan origination system of automating and
+            managing the loan application</mat-panel-description
+          >
+        </mat-expansion-panel-header>
+        <div>
+          Key Activities Performed:
+          <ul>
+            <li>Develop and test web applications</li>
+            <li>
+              Create and maintain the environments and dependencies as per
+              framework enhancements
+            </li>
+            <li>Develop automation tasks</li>
+          </ul>
+
+          Technology/Skills/Tools used:
+          <ul>
+            <li><u>Tools:</u> Visual Studio, Postman, Custom Framework</li>
+            <li>
+              <u>Technologies:</u> ASG-Studio, Angular, JavaScript, HTML, CSS
+            </li>
+            <li><u>Skills:</u> Application development</li>
+          </ul>
+        </div>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </mat-expansion-panel>
+
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>Roles and Responsibilities</mat-panel-title>
+    </mat-expansion-panel-header>
+    <ul>
+      <li>Develop, test, and deploy hybrid mobile and web applications</li>
+      <li>
+        Provided technical training to Product application developers/partners
+      </li>
+      <li>Manage and prioritize enhancements and road map updates</li>
+      <li>Involve in preparing Proof of Concept’s (POCs)</li>
+      <li>Create clean, maintainable, and tested code</li>
+      <li>Performance and code quality improvement for applications</li>
+      <li>
+        Work with IT System personnel to ensure efficient code migrations
+        between development environments
+      </li>
+    </ul>
+  </mat-expansion-panel>
+
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>Utility Skillset</mat-panel-title>
+    </mat-expansion-panel-header>
+    <ul>
+      <li>Operating System : Window</li>
+      <li>IDE : VS Code</li>
+      <li>Version Control : GIT</li>
+      <li>Other tools : Postman</li>
+    </ul>
+  </mat-expansion-panel>
+
+  <mat-card style="top:20px">
+    <mat-card-content>
+      <mat-card-subtitle><b>Declaration</b></mat-card-subtitle>
+      I hereby declare that the above information is true and correct to the
+      best of my knowledge.
+      <mat-card-actions align="end">Pavan Kumar S</mat-card-actions>
+    </mat-card-content>
+  </mat-card>
+</mat-accordion>
